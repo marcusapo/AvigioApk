@@ -1,0 +1,167 @@
+:root {
+    --font-white: #FFF;
+    --font-blue: #5CBEF5;
+    --font-secundary: '#0C1F2B';
+    --font-gray: #7D7D7D;
+    --font-red: #e64949;
+    --font-green: #69f575;
+    --font-pink: pink;
+    --font-orange: #F5A469;
+}
+
+a {
+    color: var(--font-primary)
+}
+
+b {
+    color: #5CBEF5;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+h6 {
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    
+}
+
+/* COLOR */
+.fontWhite {
+    color: var(--font-white)
+}
+
+.fontBlue {
+    color: var(--font-blue);
+}
+
+.fontSecundary {
+    color: var(--font-secundary);
+}
+
+.fontGray {
+    color: var(--font-gray)
+}
+
+.fontRed {
+    color: var(--font-red)
+}
+
+.fontGreen {
+    color: var(--font-green)
+}
+
+.fontPink {
+    color: var(--font-pink) !important;
+}
+
+.fontOrange {
+    color: var(--font-orange)
+}
+
+/* WEIGHT */
+.fontW300 {
+    font-weight: 300;
+}
+
+.fontW400 {
+    font-weight: 400;
+}
+
+.fontW500 {
+    font-weight: 500;
+}
+
+.fontW600 {
+    font-weight: 600;
+}
+
+.fontW700 {
+    font-weight: 700;
+}
+
+.fontW800 {
+    font-weight: 800;
+}
+
+.fontW900 {
+    font-weight: 900;
+}
+
+/* SIZE */
+.fontSmall {
+    font-size: 11px;
+}
+
+/* ALIGN */
+.fontCenter {
+    text-align: center;
+}
+
+.fontEnd {
+    text-align: end;
+}
+
+/* SPACE */
+
+.fontSpacSmall {
+    letter-spacing: 1px;
+}
+
+.fontSpacMedium {
+    letter-spacing: 2px;
+}
+
+.fontGap5 {
+    gap: 5px;
+}
+
+/* STYLE */
+
+.fontUpper {
+    text-transform: uppercase;
+}
+
+/* LINE */
+
+.fontNoBreak {
+    white-space: nowrap
+}
+
+/* CURSO */
+
+.cursor {
+    cursor: pointer;
+}
+
+.fontGradient {
+    background: linear-gradient(92.74deg, #EF4086 27.56%, #FE5B31 47.47%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

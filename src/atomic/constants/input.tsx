@@ -1,0 +1,1 @@
+export type InputSizeType = 'mini' | 'small' | 'smaller' | 'medium' | 'middle' | 'big' | 'bigger' | '100%'
